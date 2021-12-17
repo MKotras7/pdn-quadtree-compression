@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{80dbb4a7-2b7b-4609-9119-825dae7513d3}") = "QuadtreecompressorEffect", "QuadtreecompressorEffect\QuadtreecompressorEffect.csproj", "{c523832c-ed2d-402d-8774-fd5266d1127d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{c523832c-ed2d-402d-8774-fd5266d1127d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c523832c-ed2d-402d-8774-fd5266d1127d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c523832c-ed2d-402d-8774-fd5266d1127d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{c523832c-ed2d-402d-8774-fd5266d1127d}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7246a325-766a-4c69-b4c6-5bc1d0fed34e}
+	EndGlobalSection
+EndGlobal

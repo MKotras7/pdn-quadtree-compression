@@ -1,0 +1,523 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Quadtreecompressor/1.0.0": {
+        "dependencies": {
+          "PaintDotNet.Base": "4.304.8007.42994",
+          "PaintDotNet.Core": "4.304.8007.42994",
+          "PaintDotNet.Data": "4.304.8007.42994",
+          "PaintDotNet.Effects": "4.304.8007.42994"
+        },
+        "runtime": {
+          "Quadtreecompressor.dll": {}
+        }
+      },
+      "PaintDotNet.Base/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.Base.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "PaintDotNet.Core/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.Core.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "PaintDotNet.Data/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.Data.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "PaintDotNet.Effects/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.Effects.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "PresentationFramework/6.0.0.0": {
+        "runtime": {
+          "PresentationFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "System.Xaml/6.0.0.0": {
+        "runtime": {
+          "System.Xaml.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Crc32.NET/1.0.0.0": {
+        "runtime": {
+          "Crc32.NET.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.5"
+          }
+        }
+      },
+      "PaintDotNet.SystemLayer/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.SystemLayer.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "CommunityToolkit.HighPerformance/7.0.0.0": {
+        "runtime": {
+          "CommunityToolkit.HighPerformance.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.3.1"
+          }
+        }
+      },
+      "PaintDotNet.Framework/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.Framework.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "PaintDotNet.Resources/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.Resources.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "PresentationCore/6.0.0.0": {
+        "runtime": {
+          "PresentationCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "UIAutomationProvider/6.0.0.0": {
+        "runtime": {
+          "UIAutomationProvider.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "UIAutomationTypes/6.0.0.0": {
+        "runtime": {
+          "UIAutomationTypes.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "ReachFramework/6.0.0.0": {
+        "runtime": {
+          "ReachFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "System.Printing/6.0.0.0": {
+        "runtime": {
+          "System.Printing.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "System.Private.CoreLib/6.0.0.0": {
+        "runtime": {
+          "System.Private.CoreLib.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Private.Uri/6.0.0.0": {
+        "runtime": {
+          "System.Private.Uri.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Private.Xml/6.0.0.0": {
+        "runtime": {
+          "System.Private.Xml.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Private.Xml.Linq/6.0.0.0": {
+        "runtime": {
+          "System.Private.Xml.Linq.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "TerraFX.Interop.Windows/10.0.20348.0": {
+        "runtime": {
+          "TerraFX.Interop.Windows.dll": {
+            "assemblyVersion": "10.0.20348.0",
+            "fileVersion": "10.0.20348.0"
+          }
+        }
+      },
+      "Interop.WIA/1.0.0.0": {
+        "runtime": {
+          "Interop.WIA.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PaintDotNet.Plugins.Compatibility/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.Plugins.Compatibility.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "PaintDotNet.SystemLayer.Native.x64/4.304.8007.42994": {
+        "runtime": {
+          "PaintDotNet.SystemLayer.Native.x64.dll": {
+            "assemblyVersion": "4.304.8007.42994",
+            "fileVersion": "4.304.8007.42994"
+          }
+        }
+      },
+      "DirectWriteForwarder/6.0.0.0": {
+        "runtime": {
+          "DirectWriteForwarder.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "System.Windows.Input.Manipulations/6.0.0.0": {
+        "runtime": {
+          "System.Windows.Input.Manipulations.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "System.Windows.Forms.Legacy/0.1.1.0": {
+        "runtime": {
+          "System.Windows.Forms.Legacy.dll": {
+            "assemblyVersion": "0.1.1.0",
+            "fileVersion": "0.1.1.0"
+          }
+        }
+      },
+      "PresentationFramework.Aero/6.0.0.0": {
+        "runtime": {
+          "PresentationFramework.Aero.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "PresentationFramework.Aero2/6.0.0.0": {
+        "runtime": {
+          "PresentationFramework.Aero2.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "PresentationFramework.AeroLite/6.0.0.0": {
+        "runtime": {
+          "PresentationFramework.AeroLite.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "PresentationFramework.Classic/6.0.0.0": {
+        "runtime": {
+          "PresentationFramework.Classic.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "PresentationFramework.Luna/6.0.0.0": {
+        "runtime": {
+          "PresentationFramework.Luna.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "PresentationFramework.Royale/6.0.0.0": {
+        "runtime": {
+          "PresentationFramework.Royale.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "System.Windows.Controls.Ribbon/6.0.0.0": {
+        "runtime": {
+          "System.Windows.Controls.Ribbon.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "System.Windows.Presentation/6.0.0.0": {
+        "runtime": {
+          "System.Windows.Presentation.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "UIAutomationClient/6.0.0.0": {
+        "runtime": {
+          "UIAutomationClient.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "UIAutomationClientSideProviders/6.0.0.0": {
+        "runtime": {
+          "UIAutomationClientSideProviders.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Quadtreecompressor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.Base/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.Core/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.Data/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.Effects/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Xaml/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crc32.NET/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.SystemLayer/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.HighPerformance/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.Framework/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.Resources/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationCore/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UIAutomationProvider/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UIAutomationTypes/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReachFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Printing/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Private.CoreLib/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Private.Uri/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Private.Xml/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Private.Xml.Linq/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TerraFX.Interop.Windows/10.0.20348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.WIA/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.Plugins.Compatibility/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaintDotNet.SystemLayer.Native.x64/4.304.8007.42994": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DirectWriteForwarder/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Input.Manipulations/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Legacy/0.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationFramework.Aero/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationFramework.Aero2/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationFramework.AeroLite/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationFramework.Classic/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationFramework.Luna/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PresentationFramework.Royale/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Controls.Ribbon/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Presentation/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UIAutomationClient/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UIAutomationClientSideProviders/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
