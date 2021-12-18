@@ -146,7 +146,7 @@ namespace QuadtreecompressorEffect
         {
             ControlInfo configUI = CreateDefaultConfigUI(props);
 
-            configUI.SetPropertyControlValue(PropertyNames.Amount1, ControlInfoPropertyNames.DisplayName, "Slider 1 Description");
+            configUI.SetPropertyControlValue(PropertyNames.Amount1, ControlInfoPropertyNames.DisplayName, "Standard deviation threshold");
 
             return configUI;
         }
@@ -155,7 +155,7 @@ namespace QuadtreecompressorEffect
         {
             // Add help button to effect UI
             props[ControlInfoPropertyNames.WindowHelpContentType].Value = WindowHelpContentType.PlainText;
-            props[ControlInfoPropertyNames.WindowHelpContent].Value = "Quadtree compressor v1.0\nCopyright ©2021 by \nAll rights reserved.";
+            props[ControlInfoPropertyNames.WindowHelpContent].Value = "Quadtree compressor v1.1\nCopyright ©2021 by \nAll rights reserved.";
             base.OnCustomizeConfigUIWindowProperties(props);
         }
 
@@ -218,19 +218,7 @@ namespace QuadtreecompressorEffect
 
         void Render(Surface dst, Surface src, Rectangle rect)
         {
-            /*
-            for(int x = rect.X; x < rect.X + rect.Width; x++)
-            {
-                for (int y = rect.Y; x < rect.Y + rect.Height; y++)
-                {
-                    if(rect.Contains(x, y))
-                    {
-                        dst[x, y] = quadSurface[x, y];
-                    }
-                }
-            }
-            */
-            //quadTree.render(dst, rect);
+            
         }
         
         #endregion
