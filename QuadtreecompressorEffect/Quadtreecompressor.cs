@@ -195,6 +195,8 @@ namespace QuadtreecompressorEffect
 
         void PreRender(Surface dst, Surface src)
         {
+            //This is the singlethreaded code that executes before render.
+            //In our case, it is where the entire effect resides.
             Rectangle selection = EnvironmentParameters.SelectionBounds;
 
             int powerOfTwoWidth = 1;
@@ -213,12 +215,12 @@ namespace QuadtreecompressorEffect
             quadTree.compress();
             quadSurface = new Surface(new Size(pow2Size, pow2Size));
             quadTree.render(dst, selection);
-            //quadTree.render(quadSurface, (-1 * selection.X, -1 * selection.Y));
         }
 
         void Render(Surface dst, Surface src, Rectangle rect)
         {
-            
+            //We don't need to do any work here because this is where all of the multithreaded logic goes,
+            //and it seems slower if we do that.
         }
         
         #endregion
