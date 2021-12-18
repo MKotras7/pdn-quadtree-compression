@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RKhbyIqPiq65XUg0b8j8w23bJIaSzQCLRgbrNwlpDG4WfImcTLLfmvbAFwt1Ege1PWsVGpW4jgx45IKlBD/Cow==",
+  "dgSpecHash": "gFTdPA5PxJsyfJwYj6Ir5E5L9FAFQ0Jx/PO88jlB8Tl3jyQCmcnHbQef9Pga+KO+Pn+2kxivzvlXBIONE20NHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Main\\Desktop\\paintDotNetQuadtreeCompressorEffect\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj",
+  "projectFilePath": "C:\\Users\\Main\\Desktop\\pdn-quadtree-compression\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

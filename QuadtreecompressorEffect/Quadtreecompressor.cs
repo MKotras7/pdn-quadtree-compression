@@ -137,7 +137,7 @@ namespace QuadtreecompressorEffect
         {
             List<Property> props = new List<Property>();
 
-            props.Add(new Int32Property(PropertyNames.Amount1, 0, 0, 200));
+            props.Add(new Int32Property(PropertyNames.Amount1, 0, 0, 500));
 
             return new PropertyCollection(props);
         }
@@ -162,6 +162,9 @@ namespace QuadtreecompressorEffect
         protected override void OnSetRenderInfo(PropertyBasedEffectConfigToken token, RenderArgs dstArgs, RenderArgs srcArgs)
         {
             Amount1 = token.GetProperty<Int32Property>(PropertyNames.Amount1).Value;
+
+            PreRender(dstArgs.Surface, srcArgs.Surface);
+
             base.OnSetRenderInfo(token, dstArgs, srcArgs);
         }
 
@@ -187,44 +190,47 @@ namespace QuadtreecompressorEffect
         #region UICode
         IntSliderControl Amount1 = 0;
         #endregion
+
+        private Surface quadSurface;
+
+        void PreRender(Surface dst, Surface src)
+        {
+            Rectangle selection = EnvironmentParameters.SelectionBounds;
+
+            int powerOfTwoWidth = 1;
+            while (powerOfTwoWidth < selection.Width)
+            {
+                powerOfTwoWidth <<= 1;
+            }
+
+            int powerOfTwoHeight = 1;
+            while (powerOfTwoHeight < selection.Height)
+            {
+                powerOfTwoHeight <<= 1;
+            }
+            int pow2Size = Math.Max(powerOfTwoWidth, powerOfTwoHeight);
+            QuadTree quadTree = new QuadTree(src, (selection.X, selection.Y), pow2Size, Amount1);
+            quadTree.compress();
+            quadSurface = new Surface(new Size(pow2Size, pow2Size));
+            quadTree.render(dst, selection);
+            //quadTree.render(quadSurface, (-1 * selection.X, -1 * selection.Y));
+        }
+
         void Render(Surface dst, Surface src, Rectangle rect)
         {
-            // Delete any of these lines you don't need
-            Rectangle selection = EnvironmentParameters.SelectionBounds;
-            //int centerX = ((selection.Right - selection.Left) / 2) + selection.Left;
-            //int centerY = ((selection.Bottom - selection.Top) / 2) + selection.Top;
             /*
-            ColorBgra primaryColor = EnvironmentParameters.PrimaryColor;
-            ColorBgra secondaryColor = EnvironmentParameters.SecondaryColor;
-            int brushWidth = (int)EnvironmentParameters.BrushWidth;
-            */
-
-            QuadTree quadTree = new QuadTree(null, src, (0, 0), selection.Width, Amount1);
-            quadTree.compress();
-            quadTree.render(dst);
-
-            /*
-            ColorBgra currentPixel;
-            for (int y = rect.Top; y < rect.Bottom; y++)
+            for(int x = rect.X; x < rect.X + rect.Width; x++)
             {
-                if (IsCancelRequested) return;
-                for (int x = rect.Left; x < rect.Right; x++)
+                for (int y = rect.Y; x < rect.Y + rect.Height; y++)
                 {
-                    currentPixel = src[x,y];
-                    // TODO: Add pixel processing code here
-                    // Access RGBA values this way, for example:
-                    // currentPixel.R = primaryColor.R;
-                    // currentPixel.G = primaryColor.G;
-                    // currentPixel.B = primaryColor.B;
-                    // currentPixel.A = primaryColor.A;
-                    if(centerX == x && centerY == y)
+                    if(rect.Contains(x, y))
                     {
-                        currentPixel = ColorBgra.Yellow;
+                        dst[x, y] = quadSurface[x, y];
                     }
-                    dst[x,y] = currentPixel;
                 }
             }
             */
+            //quadTree.render(dst, rect);
         }
         
         #endregion

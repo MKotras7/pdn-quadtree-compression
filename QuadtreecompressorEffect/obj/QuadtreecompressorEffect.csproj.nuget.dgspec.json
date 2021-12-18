@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Main\\Desktop\\paintDotNetQuadtreeCompressorEffect\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj": {}
+    "C:\\Users\\Main\\Desktop\\pdn-quadtree-compression\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Main\\Desktop\\paintDotNetQuadtreeCompressorEffect\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj": {
+    "C:\\Users\\Main\\Desktop\\pdn-quadtree-compression\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Main\\Desktop\\paintDotNetQuadtreeCompressorEffect\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj",
+        "projectUniqueName": "C:\\Users\\Main\\Desktop\\pdn-quadtree-compression\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj",
         "projectName": "Quadtreecompressor",
-        "projectPath": "C:\\Users\\Main\\Desktop\\paintDotNetQuadtreeCompressorEffect\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj",
+        "projectPath": "C:\\Users\\Main\\Desktop\\pdn-quadtree-compression\\QuadtreecompressorEffect\\QuadtreecompressorEffect.csproj",
         "packagesPath": "C:\\Users\\Main\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Main\\Desktop\\paintDotNetQuadtreeCompressorEffect\\QuadtreecompressorEffect\\obj\\",
+        "outputPath": "C:\\Users\\Main\\Desktop\\pdn-quadtree-compression\\QuadtreecompressorEffect\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Main\\AppData\\Roaming\\NuGet\\NuGet.Config",

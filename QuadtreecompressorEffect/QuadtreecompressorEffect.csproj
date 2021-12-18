@@ -25,7 +25,9 @@
     </Reference>
   </ItemGroup>
 
+	<!--
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="cmd /c explorer &quot;$(TargetDir)&quot;&#xD;&#xA;exit 0" />
   </Target>
+	-->
 </Project>
